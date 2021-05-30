@@ -1,0 +1,16 @@
+name: Artifactld
+version: 1.0-SNAPSHOT
+main: no.artifactld.Artifactld
+api-version: 1.13
+authors: [himuhimu9191]
+description: this is Himuhimupack
+
+commands:
+  message:
+    description: /message または /msg でTESTメッセージを送信します
+    aliases:
+      - msg
+  countdown:
+    description: カウントダウンします
+    aliases:
+      - cd
